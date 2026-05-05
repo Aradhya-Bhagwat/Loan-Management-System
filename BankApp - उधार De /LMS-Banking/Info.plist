@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string></string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLIconFile</key>
+			<string></string>
+			<key>CFBundleURLName</key>
+			<string>Nevin.LMS-Banking</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>udharde</string>
+			</array>
+		</dict>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>googleauthenticator</string>
+		<string>otpauth</string>
+	</array>
+	<key>NSFaceIDUsageDescription</key>
+	<string>उधार De uses Face ID to securely unlock your session on this device.</string>
+</dict>
+</plist>

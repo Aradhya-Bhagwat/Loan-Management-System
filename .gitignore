@@ -1,0 +1,45 @@
+# Xcode
+#
+# gitignore contributors: writers on GitHub
+
+## User settings
+xcuserdata/
+
+## Build results
+build/
+DerivedData/
+
+## Schemes
+## Build history
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+*.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+## Crash logs
+*.crash
+
+## iOS/Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved
+
+## macOS
+.DS_Store
+*.swp
+*.lock
+profile
+
+## Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+## Other
+*.moved-aside
+*.hmap
+*.ipa
+*.xcuserstate

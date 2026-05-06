@@ -35,6 +35,35 @@ The customer-facing application providing a frictionless onboarding and loan man
 
 ---
 
+## 🚀 Getting Started
+
+### Prerequisites
+- **macOS** Sequoia or later
+- **Xcode 16.0+**
+- **iOS 18.0+** (Simulator or Physical Device)
+
+### Installation & Setup
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/Loan-Management-System.git
+   cd Loan-Management-System
+   ```
+
+2. **Open the Projects:**
+   - For the Banking App: Open `BankApp - उधार De /LMS-Banking.xcodeproj` in Xcode.
+   - For the Borrower App: Open `BorrowerApp - उधार Le /team-6-lms.xcodeproj` in Xcode.
+
+3. **Dependency Management:**
+   The projects use **Swift Package Manager (SPM)**. Xcode will automatically resolve dependencies (Supabase, etc.) upon opening the project.
+
+4. **Configuration:**
+   The applications are pre-configured with a development Supabase instance. To use your own backend, update `SupabaseConfig.swift` (Banking) and `Supabase.swift` (Borrower) with your API keys.
+
+5. **Run:**
+   Select a target scheme and an iOS Simulator (iPhone 15/16 recommended), then press `Cmd + R` to build and run.
+
+---
+
 ## 🚀 Development Methodology
 
 This project was developed by a team of 10 interns following **Agile SCRUM** practices. 
